@@ -1,0 +1,189 @@
+2019-03-21 12:47:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/login
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('user')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3151): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3064): Model->_findCount('before', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(2998): Model->buildQuery('count', Array)
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Model/User.php(33): Model->find('count', Array)
+#9 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(247): User->isEmailAlreadyExist('')
+#10 [internal function]: ApiController->login()
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#14 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#16 {main}
+2019-03-21 12:49:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showAppSliderImages
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('app_slider')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/AppSlider.php(13): Model->find('all')
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(3149): AppSlider->getImages()
+#9 [internal function]: ApiController->showAppSliderImages()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 12:49:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showRestaurants
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('order')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/Order.php(423): Model->find('all', Array)
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(1458): Order->getCompletedOrdersWhoseNotificationHasNotBeenSent('')
+#9 [internal function]: ApiController->showRestaurants()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 12:49:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showDeals
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('deal')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/Deal.php(172): Model->find('all', Array)
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(4270): Deal->getDealsAgainstCity('31.4559621', '73.1299636', 'Faisalabad')
+#9 [internal function]: ApiController->showDeals()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 12:50:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showAppSliderImages
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('app_slider')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/AppSlider.php(13): Model->find('all')
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(3149): AppSlider->getImages()
+#9 [internal function]: ApiController->showAppSliderImages()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 12:50:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showRestaurants
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('order')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/Order.php(423): Model->find('all', Array)
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(1458): Order->getCompletedOrdersWhoseNotificationHasNotBeenSent('')
+#9 [internal function]: ApiController->showRestaurants()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 12:50:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'u806995932_fau\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /foodies/mobileapp_api7/api/showDeals
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3653): Model->setSource('deal')
+#5 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /home/bring/public_html/foodies/mobileapp_api7/app/Model/Deal.php(172): Model->find('all', Array)
+#8 /home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php(4270): Deal->getDealsAgainstCity('31.4559621', '73.1299636', 'Faisalabad')
+#9 [internal function]: ApiController->showDeals()
+#10 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#11 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /home/bring/public_html/foodies/mobileapp_api7/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 /home/bring/public_html/foodies/mobileapp_api7/index.php(41): require('/home/bring/pub...')
+#15 {main}
+2019-03-21 13:03:53 Error: Fatal Error (1): Call to undefined function convert_from_latin1_to_utf8_recursively() in [/home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php, line 1791]
+2019-03-21 13:03:53 Error: [FatalErrorException] Call to undefined function convert_from_latin1_to_utf8_recursively()
+Request URL: /foodies/mobileapp_api7/api/showRestaurantsMenu
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/bring/pub...', 1791)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/bring/pub...', 1791, Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/bring/pub...', 1791, Array)
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-03-21 13:04:10 Error: Fatal Error (1): Call to undefined method Lib::convert_from_latin1_to_utf8_recursively() in [/home/bring/public_html/foodies/mobileapp_api7/app/Controller/ApiController.php, line 1791]
+2019-03-21 13:04:10 Error: [FatalErrorException] Call to undefined method Lib::convert_from_latin1_to_utf8_recursively()
+Request URL: /foodies/mobileapp_api7/api/showRestaurantsMenu
+Stack Trace:
+#0 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/bring/pub...', 1791)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/bring/pub...', 1791, Array)
+#2 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/bring/pub...', 1791, Array)
+#3 /home/bring/public_html/foodies/mobileapp_api7/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
